@@ -2,7 +2,7 @@
 
 - `Abrir o terminal:`
     - ctrl + alt + t
-- `**Sair** do terminal e fechar abas:`
+- `Sair do terminal e fechar abas:`
     - exit
     - ctrl + d
 - `Abrir nova aba no terminal:`
@@ -13,16 +13,16 @@
     - ctrl + alt + t
 - `Selecionar as janelas do terminal:`
     - alt+ tab
-- `**Limpar** a tela:`
+- `Limpar a tela:`
     - clear
     - ctrl+l
     - reset
 - `Copiar e colar no terminal:`
     - ctrl + shift + c - copiar
     - ctrl + shift + v - colar
-- `**Histórico** de comandos:`
+- `Histórico de comandos:`
     - history
-- `**Manual** de um comando:`
+- `Manual de um comando:`
     - man (comando a ser pesquisado)
     - man man - manual do manual
     - man -f (comando) - tem uma descrição melhor do comando
@@ -34,39 +34,39 @@
     - comando+parâmetro+argumento
 - `Substituição do bash depois de instalar o zsh no tilix`
     - zsh
-- `Exibir conteudo do **diretório**/pasta atual:`
+- `Exibir conteudo do diretório/pasta atual:`
     - dir
-- `**Sair** de um comando fechando no terminal:`
+- `Sair de um comando fechando no terminal:`
     - q
-- `Fazer referência ao **diretório home**:`
+- `Fazer referência ao diretório home:`
     - ~/
 - `Pular linha para continuar um comando no terminal:`
     - /
 - `Substituir por um comando ou variável declarada:`
     - %
-- `Fazer referência ao **diretório atual**:`
+- `Fazer referência ao diretório atual:`
     - ./ ou .
-- `Fazer referência ao **diretório acima**:`
+- `Fazer referência ao diretório acima:`
     - . .
-- `Mostrar e fazer o **último comando executado**:`
+- `Mostrar e fazer o último comando executado:`
     - !!
-- `**Sair** do modo edição **e salvar**:`
+- `Sair do modo edição e salvar:`
     - wq
-- `Caracter para **referência global** como argumento:`
+- `Caracter para referência global como argumento:`
     - *
-- `Exibir o **caminho** do diretório/pasta atual:`
+- `Exibir o caminho do diretório/pasta atual:`
     - pwd
-- `Verificar o **usuario atual**:`
+- `Verificar o usuario atual:`
     - who
-- `**Copiar**/Duplicar uma arquivo:`
+- `Copiar/Duplicar uma arquivo:`
     - copy
-- `**Mover/Renomear** uma arquivo:`
+- `Mover/Renomear uma arquivo:`
     - move
-- `**Abrir** o VSCode no diretorio do projeto depois de configurar:`
+- `Abrir o VSCode no diretorio do projeto depois de configurar:`
     - code .
-- `Uso de **memória**:`
+- `Uso de memória:`
     - free
-- `Comando no **final** para não perguntar se deseja continuar:`
+- `Comando no final para não perguntar se deseja continuar:`
     - -y
 - `Comando para que o terminal o que foi executado, verbose:`
     - -t
@@ -88,9 +88,9 @@
     - ctrl + h
 - `Exibir o tipo do arquivo:`
     - file + arquivo
-- `**Fechar** um tipo de visualização no terminal, cancelar uma ação:`
+- `Fechar um tipo de visualização no terminal, cancelar uma ação:`
     - ctrl + c
-- `Executar comando como **root/administrador**:`
+- `Executar comando como root/administrador:`
     - sudo + comandos
 - `Mudar a senha de usuário:`
     - passwd
@@ -110,13 +110,13 @@
     - sudo ufw app list
 - `Comando para que o terminal execute um comando em 5 ou menos ou mais segundos:`
     - sleep 5; + comandos
-- `Saber o **caminho** de instalação de um programa ou onde é executado:`
+- `Saber o caminho de instalação de um programa ou onde é executado:`
     - which + nome do programa
 - `Selecionar o separador padrão de acordo com o arquivo:`
     - -t + “separador” - pode ser virgula, traço, etc
-- `**Baixar** aplicativos do repositorio do linux:`
+- `Baixar aplicativos do repositorio do linux:`
     - buscar synaptic em “todos os aplicativos” do menu principal
-- `Comando para deixar o usuário como **root/administrador direto**:`
+- `Comando para deixar o usuário como root/administrador direto:`
     - sudo + su
     - exit - Para sair desse usuário e voltar ao padrão
 - `Comando para que o terminal mostre uma sequência:`
@@ -149,18 +149,18 @@
 
 # COMANDOS SHELL
 
-## EDITORES DE TEXTOS E ARQUIVOS**:**
+## EDITORES DE TEXTOS E ARQUIVOS:
 
 - `Editar um arquivo dentro do diretorio/pasta:`
     - vim  + (Arquivo.extensao)
     - nano  + (Arquivo.extensao)
     - gedit  + (Arquivo.extensao)
 
-## EDITOR DE TEXTOS NANO, DENTRO DO TERMINAL**:**
+## EDITOR DE TEXTOS NANO, DENTRO DO TERMINAL:
 
-- `Copiar o conteúdo de um arquivo para outro por meio do **nano** indicando o arquivo:`
+- `Copiar o conteúdo de um arquivo para outro por meio do nano indicando o arquivo:`
     - ctrl + r
-- `Dentro do **nano** comandos para compiar, colar, recortar, salvar e sair:`
+- `Dentro do nano comandos para compiar, colar, recortar, salvar e sair:`
     - alt+a - para selecionar o que vai ser copiado
     - alt+c - para compiar o que foi selecionado
     - ctrl+k - para recortar o que foi selecionado
@@ -168,29 +168,29 @@
     - ctrl+o - para salvar
     - ctrl+x - para sair
 
-## EDITOR DE TEXTOS VIM, DENTRO DO TERMINAL**:**
+## EDITOR DE TEXTOS VIM, DENTRO DO TERMINAL:
 
-- `Dentro do **vim** comando para editar e modo de comando:`
+- `Dentro do vim comando para editar e modo de comando:`
     - i ou insert
     - esc - para modo de comando
-- `Dentro do **vim** comando para salvar depois de esc:`
+- `Dentro do vim comando para salvar depois de esc:`
     - :w
-- `Dentro do **vim** comando para sair depois de esc:`
+- `Dentro do vim comando para sair depois de esc:`
     - :q
-- `Dentro do **vim** comando para salvar e sair depois de esc:`
+- `Dentro do vim comando para salvar e sair depois de esc:`
     - :x
-- `Dentro do **vim** comando para sair sem salvar depois de esc:`
+- `Dentro do vim comando para sair sem salvar depois de esc:`
     - :q!
-- `Dentro do **vim** comando para deletar uma linha depois de esc:`
+- `Dentro do vim comando para deletar uma linha depois de esc:`
     - dd
-- `Dentro do **vim** comando para desfazer algo deletado uma linha depois de esc:`
+- `Dentro do vim comando para desfazer algo deletado uma linha depois de esc:`
     - u ou ctrl + r
-- `Dentro do **vim** comando para encontrar uma palavra depois de esc:`
+- `Dentro do vim comando para encontrar uma palavra depois de esc:`
     - /palavra
 - `Selecionar um plugin,depois de instalado, de forma local da aplicação editando:`
     - vim .tools-versions
 
-## EDITOR DE FLUXO DE TEXTO DO TERMINAL SED**:**
+## EDITOR DE FLUXO DE TEXTO DO TERMINAL SED:
 
 - `Editor de texto não interativo, para editar fluxos de texto a partir de regex:`
     - sed
@@ -213,7 +213,7 @@
     - sed  ‘6d’ arquivo.txt  - visualiza como fica com a linha 6 deletada
     - sed -i ‘6d’ arquivo.txt  - deleta a linha 6
 
-## PESQUISAR STRINGS EM ARQUIVO DE TEXTO**:**
+## PESQUISAR STRINGS EM ARQUIVO DE TEXTO:
 
 - `Busca global com expressão regular que depois printa no terminal o resultado:`
     - grep
@@ -235,7 +235,7 @@
     - grep -q palavraBuscada arquivo.txt
     - echo $? - para exibir se o comando retornou 0 ou 1
 
-## EXIBIR A LISTA HIERÁRQUICA DE DIRETÓRIOS**:**
+## EXIBIR A LISTA HIERÁRQUICA DE DIRETÓRIOS:
 
 - `Comando para mostrar no terminal uma ramificação de diretórios de uma pasta:`
     - tree
@@ -258,38 +258,38 @@
     - ls -s -f caminhoArquivo/Diretório + linkSimbolico
     
 
-## FILTROS E BUSCAS DE ARQUIVOS E DIRETÓRIOS**:**
+## FILTROS E BUSCAS DE ARQUIVOS E DIRETÓRIOS:
 
-- `Exibir o topo de um arquivo/texto do **vim**:`
-    - head + arquivo e extensão
-- `Encontrar uma palavra/frase dentro de um arquivo do **vim**:`
-    - greap + ‘palavra’ + arquivo e extensão
-- `Encontrar uma palavra/frase dentro de um arquivo ignorando o maiusculo do **vim**:`
-    - greap -i + ‘palavra’ + arquivo e extensão
-- `Encontrar quantas vezes aparece uma palavra/frase dentro de um arquivo do **vim**:`
-    - greap -c + ‘palavra’ + arquivo e extensão
-- `Buscar determinada palavra/frase dentro de um diretório do **vim**:`
+- `Exibir o topo de um arquivo/texto do vim:`
+    - head + arquivo.extensão
+- `Encontrar uma palavra/frase dentro de um arquivo do vim:`
+    - greap + ‘palavra’ + arquivo.extensão
+- `Encontrar uma palavra/frase dentro de um arquivo ignorando o maiusculo do vim:`
+    - greap -i + ‘palavra’ + arquivo.extensão
+- `Encontrar quantas vezes aparece uma palavra/frase dentro de um arquivo do vim:`
+    - greap -c + ‘palavra’ + arquivo.extensão
+- `Buscar determinada palavra/frase dentro de um diretório do vim:`
     - greap + ‘palavra’ + -r
 - `Exibir determinada linha de um arquivo/texto a partir do topo:`
-    - head -n 1 + arquivo e extensão - 1 linha
-    - head -n 2 + arquivo e extensão - 2 linhas
+    - head -n 1 + arquivo.extensão - 1 linha
+    - head -n 2 + arquivo.extensão - 2 linhas
 - `Enviar o conteúde de uma linha de um arquivo/texto para outro do topo:`
     - head -n 1 + arquivoOrigem > arquivoDestino
 - `Exibir o fim de um arquivo/texto :`
-    - tail + arquivo e extensão
+    - tail + arquivo.extensão
 - `Exibir determinada linha de um arquivo/texto a partir do fim:`
-    - tail -n 1 + arquivo e extensão - 1 linha
-    - tail -n 2 + arquivo e extensão - 2 linhas
+    - tail -n 1 + arquivo.extensão - 1 linha
+    - tail -n 2 + arquivo.extensão - 2 linhas
 - `Enviar o conteúde de uma linha de um arquivo/texto para outro partir do fim:`
     - tail -n 1 + arquivoOrigem > arquivoDestino
 - `Exibir o conteúdo final de um arquivo mostrando as mudanças ocorridas:`
-    - tail -f + arquivo e extensão
+    - tail -f + arquivo.extensão
 - `Procurar diretórios ou arquivos pelo nome:`
-    - find -name ‘arquivo e extensão’
+    - find -name ‘arquivo.extensão’
 - `Procurar diretórios ou arquivos pelo nome ignorando o maiusculo:`
-    - find -iname ‘arquivo e extensão’
+    - find -iname ‘arquivo.extensão’
 - `Procurar todos os diretórios ou arquivos que comecem por um nome:`
-    - find -name ‘arquivo e extensão*’
+    - find -name ‘arquivo.extensão’
 - `Procurar diretórios vazios:`
     - find -empty
 - `Procurar diretórios vazios separando por diretorio ou arquivo:`
@@ -300,7 +300,7 @@
 - `Verificar o status da base de dados atual:`
     - locate -s
 
-## MOVIMENTAÇÃO DE ARQUIVOS**:**
+## MOVIMENTAÇÃO DE ARQUIVOS:
 
 - `Comando para copiar arquivos:`
     - cp arquivoOrigem.extensão + arquivoDestino/ …
@@ -334,7 +334,7 @@
 - `Remover um diretório/pasta nao vazia:`
     - rmdir /s
 
-## LISTAR ARQUIVOS, DIRETÓRIOS E CONTEÚDOS**:**
+## LISTAR ARQUIVOS, DIRETÓRIOS E CONTEÚDOS:
 
 - `Listar os conteudos do diretorio/pasta:`
     - ls
@@ -491,18 +491,18 @@
 - `Desinstalar um repositório/aplicação/programa:`
     - sudo apt purge + nome do programa
 
-## ADMINISTRAÇÃO DE USUÁRIOS**:**
+## ADMINISTRAÇÃO DE USUÁRIOS:
 
-- `Saber quando terminal exibe um **arquivo ou diretório**:`
+- `Saber quando terminal exibe um arquivo ou diretório:`
     - - quando inicia com um traço é um arquivo
     - d quando inicia com um d é de diretório
-- `**Permissões numéricas**:(R)-leitura, (W)-escrita, (X)-executação, (-)-sem permissão:`
+- `Permissões numéricas:(R)-leitura, (W)-escrita, (X)-executação, (-)-sem permissão:`
     - 1 222 333 444 - drwx rwx rwx
     - 1 - diretório (d) ou arquivo(-)
     - 2 - permissão de owner/dono/administrador
     - 3 - permissão de grupo
     - 4 - permissão dos demais
-- `Comando para **alterar permissões** **numéricas** de um **usuário**:`
+- `Comando para alterar permissões numéricas de um usuário:`
     - chmod xxx .arquivo ou diretório/
     - x representa a permissão em números
     - 1º x - administrador/owner/dono
@@ -517,13 +517,13 @@
     - 5 - ler e executar:  r - x
     - 6 - ler e escrever:  r w -
     - 7 - ler, escrever e execurar:  r w x
-- `**Exemplos** de permissões **numéricas** de usuários:`
+- `Exemplos de permissões numéricas de usuários:`
     - chmod 777 arquivo: Todos tem permissões (NUNCA)
     - chmod 400 arquivo: Só o dono tem permissão de ler.
     - chmod 764 arquivo: Dono com todas as permissões, grupos ler e alterar, demais ler.
     - chmod 755 arquivo: Dono com todas as permissões, grupos e demais ler e executar
     - chmod 000 arquivo: Ninguém tem permissões para nada apenas com sudo ou root
-- `Comando para **alterar permissões** **simbólicas** de um **usuário**:`
+- `Comando para alterar permissões simbólicas de um usuário:`
     - sudo chmod args .arquivo ou diretório/
     - **args** representa a permissão em simbolos
     - + : Adiciona permissão a um arquivo ou diretório
@@ -533,46 +533,46 @@
     - g : Grupo(group) - recebe a permissão
     - o : Outros(others) - recebe a permissão
     - a : Todos(all) - recebe a permissão
-- `**Exemplos** de permissões **simbólicas** de usuários:`
+- `Exemplos de permissões simbólicas de usuários:`
     - chmod o=x arquivo: Concede permissão de executar para Outros
     - chmod a=rwx arquivo: Concede todas as permissões a todos
     - chmod g-w arquivo: Remove permissão de escrever para grupos
     - chmod u+rw arquivo: Concede permissão de Ler e Escrever para o user/owner/adm
-- `Comando para **adicionar** um **usuário** novo:`
+- `Comando para adicionar um usuário novo:`
     - sudo adduser + nome
-- `Comando para **renomear** um **usuário** novo:`
+- `Comando para renomear um usuário novo:`
     - sudo usermod -c   ‘novo nome’ antigo nome - No display
     - sudo usermod -l   ‘novo nome’ -d /home/novo nome/ + antigo nome - Mudança completa
-- `Comando para **habilitar/desabilitar** um **usuário**:`
+- `Comando para habilitar/desabilitar um usuário:`
     - sudo usermod -L nome - Para bloquear
     - sudo usermod -U nome - Para desbloquear
-- `Comando para **deletar** um **usuário**:`
+- `Comando para deletar um usuário:`
     - sudo userdell  --remove + nome
-- `Comando para mover um **usuário para um grupo**:`
+- `Comando para mover um usuário para um grupo:`
     - sudo usermode  -a -G + grupo destinado + nome do usuário
-- `**Consultar** o **usuário** novo:`
+- `Consultar o usuário novo:`
     - ls /home/
-- `**Consultar** grupos de **usuários**:`
+- `Consultar grupos de usuários:`
     - getent group
-- `**Criar** grupo de **usuários**:`
+- `Criar grupo de usuários:`
     - sudo groupadd -g + numero Id + nome do grupo
-- `**Mudar o grupo** de um arquivo:`
+- `Mudar o grupo de um arquivo:`
     - sudo chgrp+ grupo destino + arquivo
-- `**Deletar** grupo de **usuários**:`
+- `Deletar grupo de usuários:`
     - sudo groupdel  + nome do grupo
-- `Passa**r a administraçao total de um arquivo para outro usuário**:`
+- `Passar a administraçao total de um arquivo para outro usuário:`
     - sudo chown usuário destino + arquivo
     - sudo chown usuário e grupo destino + arquivo
 
 ## PROGRAMA MYSQL:
 
-- `Instalar o **mysql**:`
+- `Instalar o mysql:`
     - sudo apt install mysql-server
 - `Verificar se foi instalado o mysql:`
     - service mysql status
 - `Acessar o mysql como usuário root:`
     - sudo mysql
-- `Criar usuário e senha no **mysql** depois de acessar como root:`
+- `Criar usuário e senha no mysql depois de acessar como root:`
     - CREATE USER ‘nome’@’localhost’ IDENTIFIED BY ‘senha’;
 - `Criar privilegios de root para o senha e usuário:`
     - GRANT ALL PRIVILEGES ON *.* TO 'nome'@'localhost' WITH GRANT OPTION;
@@ -621,7 +621,7 @@
 - `Comando para verificar o status do apache2:`
     - sudo systemctl status apache2
 
-## EXIBIR UTILIZAÇÃO E DESEMPENHO DE PROGRAMAS**:**
+## EXIBIR UTILIZAÇÃO E DESEMPENHO DE PROGRAMAS:
 
 - `Verificar programas em processo controlados pelo terminal:`
     - ps
