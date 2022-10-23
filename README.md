@@ -262,14 +262,6 @@
 
 - `Exibir o topo de um arquivo/texto do vim:`
     - head + arquivo.extensão
-- `Encontrar uma palavra/frase dentro de um arquivo do vim:`
-    - greap + ‘palavra’ + arquivo.extensão
-- `Encontrar uma palavra/frase dentro de um arquivo ignorando o maiusculo do vim:`
-    - greap -i + ‘palavra’ + arquivo.extensão
-- `Encontrar quantas vezes aparece uma palavra/frase dentro de um arquivo do vim:`
-    - greap -c + ‘palavra’ + arquivo.extensão
-- `Buscar determinada palavra/frase dentro de um diretório do vim:`
-    - greap + ‘palavra’ + -r
 - `Exibir determinada linha de um arquivo/texto a partir do topo:`
     - head -n 1 + arquivo.extensão - 1 linha
     - head -n 2 + arquivo.extensão - 2 linhas
