@@ -1,5 +1,3 @@
-# Comandos
-
 # COMANDOS DE TERMINAL
 
 - `Abrir o terminal:`
