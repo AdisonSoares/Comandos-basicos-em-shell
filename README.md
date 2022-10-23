@@ -77,9 +77,9 @@
 - `Fazer o terminal ler uma string de comandos:`
     - -c
 - `Comando para transferir conteúdo para um o final de um determinado arquivo:`
-    - >>
+    - ">>"
 - `Comando para sobrepor um conteúdo para um determinado arquivo:`
-    - >
+    - ">"
 - `Símbolo do início de uma linha:`
     - ^
 - `Símbolo do final de uma linha:`
