@@ -439,13 +439,13 @@
 ## CRIAÇÃO DE ARQUIVOS:
 
 - `Criar arquivos e documentos sem formato especifico:`
-    - touch + (Nome e extensao)
+    - touch + (Nome.extensao)
 - `Criar arquivos e documentos em formato de texto:`
     - touch + nome do arquivo
 - `Criar arquivos com outras extensoes:`
     - touch + arquivo e extensão
 - `Criar arquivos ocultos:`
-    - touch + .arquivo e extensão
+    - touch + .arquivo.extensão
 - `Mudar a data de modificação apenas:`
     - touch + nome do arquivo
 
